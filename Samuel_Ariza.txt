@@ -1,0 +1,4 @@
+Bases de datos --> Porque son mis ejercicios de relacionales
+Entornos de desarrollo --> Son mis ejercicios de requisistos 
+Programacion --> El ultimo ejercicio que realice 31-10-2023
+Sistemas informaticos --> Mi practica de sistemas

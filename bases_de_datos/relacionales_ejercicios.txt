@@ -1,0 +1,92 @@
+Ejercicio 1
+
+
+Doctor(Codigo,nombre,espec)
+        ----
+        (atiende)
+atiende(SS, codigo,Sintoma, trat, fecha)
+        --  ------                -----
+  (paciente)    (doctor)          
+            
+Unidad(planta,id,nombre,codigo)
+              --        ------
+              (ingresado) 
+                     
+ingresado(fecha,id, SS)
+          ----  --  --
+           (unidad)  (Paciente)
+Paciente(SS,edad,nombre)
+         --
+    (ingresado)
+
+
+
+
+Ejercicio 2
+
+
+Anuncio(Codigo,tipo, titular, contenido, categoria,precio,nombre)
+        ------                                            ------
+        (Web(url))            
+
+Aparece (Inicio, Fin, cod_anuncio,url_web)
+         -----------  ----------- -------
+                  (Anuncio(codigo)) (web(url))
+
+Web (url,nombre,tema, codigo)
+     ---              ------
+        
+
+Cliente (nombre,direcc,telefono,email)
+         ------
+        
+
+Ejercicio 3
+
+
+
+
+Producto(codigo,nombre,desc,foto,catnum)
+         ----                    ------
+                                 (lote(catnum)
+
+lote (Catnum,salida, pujamax,tiempo,)
+      ------                        
+    (Producto(catnum)               
+      
+puja ( dia, hora, cantidad,catnum, usuario)
+                  -------- ------- -------
+                       catnum(lote)|(cliente(usuario) 
+        
+cliente (Usuario,clave, nombre, email,id_puja, id_cod_cliente)
+         -------
+
+
+
+
+Ejercicio 4
+
+
+
+BUs (Matricula, modelo, capacidad, conductor, cod_ruta)
+     ---------                                --------
+                                            (ruta(codigo)
+     
+Ruta (codigo,km, desde, hasta)
+      ------            
+                        
+
+para_en (cod_ruta, nombre_ciudad, #orden)
+         --------  -------------
+    (Ruta(cod-ruta) 
+   -------------------------------
+                    |
+                    |
+                    >
+              (Ciudad(nombre)               
+                                 
+Ciudad (Nombre, direccion, telefono, hasta)     
+        ------                       
+        
+        
+        

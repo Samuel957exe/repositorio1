@@ -1,9 +1,6 @@
 Ejercicio 1
 
 
-Doctor(Codigo,nombre,espec)
-        ----
-        (atiende)
 atiende(SS, codigo,Sintoma, trat, fecha)
         --  ------                -----
   (paciente)    (doctor)          

@@ -14,7 +14,7 @@ import java.time.LocalDate;
 
 public class TFC {
     //atributos
-    String nombre;
+ 
     String apellido1;
     String apellido2;
     String nom_trabajo;
